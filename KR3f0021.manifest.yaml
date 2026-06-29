@@ -1,0 +1,132 @@
+canonical_identifier: bkk:krp/KR3f0021/v1
+canonical_location: https://kanripo.org/bkk/KR3f0021/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 曉菴新法
+  date: '2015-08-24 23:09:56.948959'
+  source:
+    repository: kanripo
+    path: KR3f0021
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3f0021_000.yaml, hash: 'sha256:2eb7d92471a6fd08622fee9059901f072288fc7d6266850d30f6ca9bff5baee5'}
+  - {seq: 1, filename: KR3f0021_001.yaml, hash: 'sha256:a5ef818453255c5af31f9a590061e4d13623b48a2f717fb7a601394583a8fced'}
+  - {seq: 2, filename: KR3f0021_002.yaml, hash: 'sha256:36c5406bb7d92e6dfdeb9f6e636f2256902e401383224eecb285ce7f20c59f7f'}
+  - {seq: 3, filename: KR3f0021_003.yaml, hash: 'sha256:854e3d99eb4bce023fbc666eea42b7ce2d9f410d91e0aa2b546edf2de8222edc'}
+  - {seq: 4, filename: KR3f0021_004.yaml, hash: 'sha256:3d8533885adc4b7233b5b22a7d740330bfd37d4da97d8f15eb6fd7004e65ff79'}
+  - {seq: 5, filename: KR3f0021_005.yaml, hash: 'sha256:ca73120dfafece5ba12b4abb748c6c757abfeb6b856bf5a9c7b887cf0971f17d'}
+  - {seq: 6, filename: KR3f0021_006.yaml, hash: 'sha256:ecf65ddc1bc84dcb0db1c5b50b71be8333781664639275b2c99d0195bec0f184'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3f0021_000.markers.yaml, hash: 'sha256:a7f91a76af8e8faf18d829aeb275c12209b4d47716bf8b321b5619bc2df5951c'}
+  - {seq: 1, role: markers, filename: assets/KR3f0021_001.markers.yaml, hash: 'sha256:62686f8a8013a8722c010ccc6ed994ca06dc2fbc1fded8ba4d94f8d1362d1d4c'}
+  - {seq: 2, role: markers, filename: assets/KR3f0021_002.markers.yaml, hash: 'sha256:2a4d6a1bcfd637f09be17b35e7dd689636be3922c8b110f7eccb75a7016c4142'}
+  - {seq: 3, role: markers, filename: assets/KR3f0021_003.markers.yaml, hash: 'sha256:c96c7a88a65d781df3a15192de0cb2af49eeeb18181a84df88d9360636b4937e'}
+  - {seq: 4, role: markers, filename: assets/KR3f0021_004.markers.yaml, hash: 'sha256:907c088d8f5e4cb3f6e6e410f555929d43ce3ef815250675dfa8061f0de4185a'}
+  - {seq: 5, role: markers, filename: assets/KR3f0021_005.markers.yaml, hash: 'sha256:42eeaa566859cace287f1af5fb50651bba85a9099886aa0bf58bb59f1e910a1c'}
+  - {seq: 6, role: markers, filename: assets/KR3f0021_006.markers.yaml, hash: 'sha256:a6dc561a82bfad033bfcc98fa71f6d118298088c205c9657ec6ee15a32471227'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3f0021_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 441
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3f0021_WYG_000-3a
+    span:
+    - body
+    - 441
+    - 2740
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3f0021_WYG_000-10a
+    span:
+    - body
+    - 2740
+    - 3457
+  label: 目録
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3f0021_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 2209
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3f0021_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 6555
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3f0021_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 5968
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR3f0021_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 1941
+  label: 卷四
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR3f0021_WYG_005-1a
+    span:
+    - body
+    - 0
+    - 1989
+  label: 卷五
+  type: section
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR3f0021_WYG_006-1a
+    span:
+    - body
+    - 0
+    - 10191
+  label: 卷六
+  type: section
+  level: 1
+hash: sha256:5867dd0510c65d40b977167878b157dc89d422ed53cc8396d1e2afdc9afa4916
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
